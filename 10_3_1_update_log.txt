@@ -1,0 +1,154 @@
+dd1e756fe9829bdf:1130
+power supply type usb host
+decf841a08a98ea0:172
+decf841a08a98ea0:180
+3a616a1f45a7a2a4:523
+3a616a1f45a7a2a4:529
+74c847e8096e252f:1932
+74c847e8096e252f:1696
+74c847e8096e252f:1697
+74c847e8096e252f:2318
+image <ptr>: bdev <ptr> type illb offset 0x0 len 0x396fb
+image <ptr>: bdev <ptr> type ibot offset 0x396fb len 0x516fb
+image <ptr>: bdev <ptr> type bat1 offset 0x8adf6 len 0x1d45
+image <ptr>: bdev <ptr> type dtre offset 0x8cb3b len 0x2077b
+image <ptr>: bdev <ptr> type glyP offset 0xad2b6 len 0x296a
+image <ptr>: bdev <ptr> type bat0 offset 0xafc20 len 0xbfab
+image <ptr>: bdev <ptr> type chg0 offset 0xbbbcb len 0x3b44
+image <ptr>: bdev <ptr> type batF offset 0xbf70f len 0x15dad
+image <ptr>: bdev <ptr> type chg1 offset 0xd54bc len 0x9e06
+image <ptr>: bdev <ptr> type logo offset 0xdf2c2 len 0x2fdb
+image <ptr>: bdev <ptr> type recm offset 0xe229d len 0x4052c
+b37607756c6dd5bc:267
+battery voltage 3860 mV, delta_target=50, no_battery_power=0
+power supply type batt
+74c847e8096e252f:1932
+74c847e8096e252f:1569
+74c847e8096e252f:1573
+74c847e8096e252f:1576
+74c847e8096e252f:1581
+74c847e8096e252f:1586
+74c847e8096e252f:1591
+74c847e8096e252f:1597
+74c847e8096e252f:1601
+74c847e8096e252f:1604
+74c847e8096e252f:1645
+74c847e8096e252f:1646
+74c847e8096e252f:1647
+74c847e8096e252f:1648
+74c847e8096e252f:1649
+74c847e8096e252f:1650
+74c847e8096e252f:1651
+74c847e8096e252f:1655
+74c847e8096e252f:1662
+74c847e8096e252f:1664
+74c847e8096e252f:1680
+c69dbd2499aec822:185
+image <ptr>: bdev <ptr> type illb offset 0x0 len 0x396fb
+image <ptr>: bdev <ptr> type ibot offset 0x396fb len 0x516fb
+image <ptr>: bdev <ptr> type bat1 offset 0x8adf6 len 0x1d45
+image <ptr>: bdev <ptr> type dtre offset 0x8cb3b len 0x2077b
+image <ptr>: bdev <ptr> type glyP offset 0xad2b6 len 0x296a
+image <ptr>: bdev <ptr> type bat0 offset 0xafc20 len 0xbfab
+image <ptr>: bdev <ptr> type chg0 offset 0xbbbcb len 0x3b44
+image <ptr>: bdev <ptr> type batF offset 0xbf70f len 0x15dad
+image <ptr>: bdev <ptr> type chg1 offset 0xd54bc len 0x9e06
+image <ptr>: bdev <ptr> type logo offset 0xdf2c2 len 0x2fdb
+image <ptr>: bdev <ptr> type recm offset 0xe229d len 0x4052c
+31502f8709baf270:1600
+dbac320341c4a180:75
+24275cc37f5e959f:112
+4d20c08c7a6ba179:66
+4d20c08c7a6ba179:98
+24275cc37f5e959f:102
+24275cc37f5e959f:103
+24275cc37f5e959f:104
+687bdf8288735dfd:855
+
+
+=======================================
+::
+:: iBootStage2 for n71m, Copyright 2007-2016, Apple Inc.
+::
+::      Local boot, Board 0x4 (n71map)/Rev 0x6
+::
+::      BUILD_TAG: iBoot-3406.42.5
+::
+::      BUILD_STYLE: RELEASE
+::
+::      USB_SERIAL_NUMBER: CPID:8003 CPRV:01 CPFM:03 SCEP:01 BDID:04 ECID:0004454118FBxxxx IBFL:1C SRNM:[C7KQTKH7XXXX]
+::
+=======================================
+
+74ab585bd7cc1b8d:795
+Delaying boot for 0 seconds. Hit enter to break into the command prompt...
+24275cc37f5e959f:199
+4d20c08c7a6ba179:404
+74c847e8096e252f:1933
+74c847e8096e252f:1569
+74c847e8096e252f:1573
+74c847e8096e252f:1576
+74c847e8096e252f:1581
+74c847e8096e252f:1586
+74c847e8096e252f:1591
+74c847e8096e252f:1597
+74c847e8096e252f:1602
+74c847e8096e252f:1605
+74c847e8096e252f:1646
+74c847e8096e252f:1647
+74c847e8096e252f:1648
+74c847e8096e252f:1649
+74c847e8096e252f:1650
+74c847e8096e252f:1651
+74c847e8096e252f:1652
+74c847e8096e252f:1656
+74c847e8096e252f:1663
+74c847e8096e252f:1665
+74c847e8096e252f:1681
+c69dbd2499aec822:185
+image <ptr>: bdev <ptr> type illb offset 0x0 len 0x396fb
+image <ptr>: bdev <ptr> type ibot offset 0x396fb len 0x516fb
+image <ptr>: bdev <ptr> type bat1 offset 0x8adf6 len 0x1d45
+image <ptr>: bdev <ptr> type dtre offset 0x8cb3b len 0x2077b
+image <ptr>: bdev <ptr> type glyP offset 0xad2b6 len 0x296a
+image <ptr>: bdev <ptr> type bat0 offset 0xafc20 len 0xbfab
+image <ptr>: bdev <ptr> type chg0 offset 0xbbbcb len 0x3b44
+image <ptr>: bdev <ptr> type batF offset 0xbf70f len 0x15dad
+image <ptr>: bdev <ptr> type chg1 offset 0xd54bc len 0x9e06
+image <ptr>: bdev <ptr> type logo offset 0xdf2c2 len 0x2fdb
+image <ptr>: bdev <ptr> type recm offset 0xe229d len 0x4052c
+31502f8709baf270:1600
+31502f8709baf270:1604
+dbac320341c4a180:75
+24275cc37f5e959f:111
+4d20c08c7a6ba179:71
+4d20c08c7a6ba179:103
+24275cc37f5e959f:101
+24275cc37f5e959f:102
+24275cc37f5e959f:103
+687bdf8288735dfd:865
+
+
+=======================================
+::
+:: iBootStage2 for n71m, Copyright 2007-2017, Apple Inc.
+::
+::      Remote boot, Board 0x4 (n71map)/Rev 0x6
+::
+::      BUILD_TAG: iBoot-3406.50.244
+::
+::      BUILD_STYLE: RELEASE
+::
+::      USB_SERIAL_NUMBER: CPID:8003 CPRV:01 CPFM:03 SCEP:01 BDID:04 ECID:0004454118FBxxxx IBFL:1C SRNM:[C7KQTKH7XXXX]
+::
+=======================================
+
+74ab585bd7cc1b8d:822
+Delaying boot for 0 seconds. Hit enter to break into the command prompt...
+336880128f242ae:43
+14fdbf61484fe311:322
+14fdbf61484fe311:364
+31502f8709baf270:777
+74c847e8096e252f:2292
+14fdbf61484fe311:824
+b37607756c6dd5bc:393
