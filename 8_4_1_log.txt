@@ -1,0 +1,66 @@
+pinot_quiesce()
+mipi_dsim_quiesce()
+image 0x9ff71d00: bdev 0x9ff59060 type SCAB offset 0x600
+image 0x9ff71d80: bdev 0x9ff59060 type ibot offset 0x1200 len 0x48178
+image 0x9ff71e00: bdev 0x9ff59060 type recm offset 0x49800 len 0x9db8
+image 0x9ff71e80: bdev 0x9ff59060 type bat0 offset 0x53a00 len 0x76b8
+image 0x9ff71f00: bdev 0x9ff59060 type batF offset 0x5b200 len 0x6ef8
+image 0x9ff71f80: bdev 0x9ff59060 type chg1 offset 0x62400 len 0x35f8
+image 0x9ff72000: bdev 0x9ff59060 type logo offset 0x66000 len 0x14f8
+image 0x9ff72080: bdev 0x9ff59060 type dtre offset 0x67800 len 0x12ef8
+image 0x9ff72100: bdev 0x9ff59060 type chg0 offset 0x7aa00 len 0xb78
+image 0x9ff72180: bdev 0x9ff59060 type bat1 offset 0x7b600 len 0x5f8
+image 0x9ff721e0: bdev 0x9ff59060 type glyP offset 0x7c200 len 0xf78
+pinot_init()
+mipi_dsim_init()
+pinot_init(): pinot_panel_id:      0xa0950cc9
+pinot_init(): pinot_default_color: 0x00000000
+pinot_init(): pinot_backlight_cal: 0x00000000
+paint_install_gamma_table: Found Gamma table 0x00950c49 / 0x00ffff7f
+[NAND] h2fmiPrintConfig:544 Chip ID 98 EE 95 32 7A 55 on FMI0:CE0
+[NAND] h2fmiPrintConfig:544 Chip ID 98 EE 95 32 7A 55 on FMI0:CE1
+[NAND] h2fmiPrintConfig:544 Chip ID 98 EE 95 32 7A 55 on FMI0:CE2
+[NAND] h2fmiPrintConfig:544 Chip ID 98 EE 95 32 7A 55 on FMI0:CE3
+[NAND] h2fmiPrintConfig:544 Chip ID 98 EE 95 32 7A 55 on FMI1:CE8
+[NAND] h2fmiPrintConfig:544 Chip ID 98 EE 95 32 7A 55 on FMI1:CE9
+[NAND] h2fmiPrintConfig:544 Chip ID 98 EE 95 32 7A 55 on FMI1:CE10
+[NAND] h2fmiPrintConfig:544 Chip ID 98 EE 95 32 7A 55 on FMI1:CE11
+
+
+=======================================
+::
+:: iBoot for k93, Copyright 2007-2014, Apple Inc.
+::
+::      BUILD_TAG: iBoot-2261.30.37
+::
+::      BUILD_STYLE: RELEASE
+::
+::      USB_SERIAL_NUMBER: CPID:8940 CPRV:21 CPFM:03 SCEP:11 BDID:04 ECID:00000XXXXXXXXXXX IBFL:1B SRNM:[DN6FV03HDFJ0]
+::
+=======================================
+
+[FTL:MSG] Apple NAND Driver (AND) RO
+[NAND] h2fmiPrintConfig:544 Chip ID 98 EE 95 32 7A 55 on FMI0:CE0
+[NAND] h2fmiPrintConfig:544 Chip ID 98 EE 95 32 7A 55 on FMI0:CE1
+[NAND] h2fmiPrintConfig:544 Chip ID 98 EE 95 32 7A 55 on FMI0:CE2
+[NAND] h2fmiPrintConfig:544 Chip ID 98 EE 95 32 7A 55 on FMI0:CE3
+[NAND] h2fmiPrintConfig:544 Chip ID 98 EE 95 32 7A 55 on FMI1:CE8
+[NAND] h2fmiPrintConfig:544 Chip ID 98 EE 95 32 7A 55 on FMI1:CE9
+[NAND] h2fmiPrintConfig:544 Chip ID 98 EE 95 32 7A 55 on FMI1:CE10
+[NAND] h2fmiPrintConfig:544 Chip ID 98 EE 95 32 7A 55 on FMI1:CE11
+[FTL:MSG] FIL_Init            [OK]
+[FTL:MSG] BUF_Init            [OK]
+[FTL:MSG] FPart Init          [OK]
+read new style signature 0x43313141 (line:389)
+[FTL:MSG] VSVFL Register  [OK]
+[WMR:MSG] Metadata whitening is set in NAND signature
+[FTL:MSG] VFL Init            [OK]
+[FTL:MSG] VFL_Open            [OK]
+[FTL:MSG] YAFTL Register  [OK]
+[FTL:MSG] FTL_Open            [OK]
+Boot Failure Count: 0   Panic Fail Count: 0
+Delaying boot for 0 seconds. Hit enter to break into the command prompt...
+HFSInitPartition: 0x9ff58e80
+Loading kernel cache at 0x84000000
+Uncompressed kernel cache at 0x84000000
+gBootArgs.commandLine = [ ]
